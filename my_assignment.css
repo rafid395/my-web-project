@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+section{
+    width: 100%;
+    
+    margin-bottom: 10%;
+    position: relative;
+   
+}
+#section1{
+    background-image: url(header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section2{
+    background-image: url(biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section3{
+    background-image: url(latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section4{
+    background-image: url(footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.half{
+    width: 40%;
+    margin-left: 3%;
+    display:inline-block;
+   
+   
+}
+.first-half{
+    position: relative;
+    bottom: 200px;
+    left: 120px;
+    
+}
+h1{
+    color:  rgb(255, 0, 119);
+    font-weight: 750;
+    font-size: 30px;
+    
+
+}
+h3{
+    font-weight: 400;
+    font-size: 20px;
+}
+h6{
+    color: black;
+    opacity: 50%;
+}
+h2{
+    font-size: 25px;
+    position: relative;
+    bottom: 30px;
+    font-weight: 300;
+    opacity: 90%;
+
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.work{
+    width: 25%;
+    display: inline-block;
+    margin-left: 2%;
+    position: relative;
+    left: 95px;
+}
+.link{
+    position: relative;
+    top: 30px;
+    padding: 10px 20px;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(255, 0, 119);
+    font-size: 10px;
+    font-weight: 600;
+    
+}
+
+.section1-1{
+    margin-top:5px;
+}
+.footer{
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    
+}
+.sec4div{
+    box-sizing: border-box;
+    background-color:rgb(255, 0, 119) ;
+    padding: 20px;
+    width:420px;
+    border-radius: 5px;
+    margin-left: 380px;
+    position: relative;
+    top: 30px;
+    color: white;
+}
+.msg{
+    color: white;
+    opacity: 100%;
+}
+
+.last-div{
+    width: 25%;
+    box-sizing: border-box;
+    background-color: white;
+    display: inline-block;
+    height: 300px;
+    margin: 10px;
+    position: relative;
+    left: 120px;
+    text-align: center;
+    justify-content: center;
+    font-size: 13px;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 10px 20px 40px gray;
+
+
+    
+}
+ .last-link{
+    position: relative;
+    top: 30px;
+    padding: 10px 20px;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(255, 0, 119);
+    font-size: 10px;
+    font-weight: 600;
+    
+ }
+ .last-link:hover{
+     background-color: greenyellow;
+     transition: 0.7s;
+     
+ }
